@@ -1,0 +1,114 @@
+.float_center {
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+}
+#title {
+	text-align: center;
+	font-family: "Open Sans","Times New Roman";
+}
+#ingredients {
+	text-align: center;
+}
+
+#directions {
+	text-align: center;
+}
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+body {
+	background-color: #32CD32;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 95px;
+	margin-left: 95px;
+}
+table, td, th {
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+    text-align: left;
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.pic {
+  border: 10px solid #fff;  
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+  
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;   
+}
+img {
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 50px 50px;
+}
+/*GROW*/
+.grow img {
+  height: 300px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
+h1 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+
+
+h2 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 0 0 24px; text-align: center; }
+
+h3 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 0 0 24px; text-align: center; }
+
+p { color: #f8f8f8; font-family: 'Raleway',sans-serif; font-size: 18px; font-weight: 500; line-height: 32px; margin: 0 0 24px; }
+#headerBar {
+    height: 40px;
+    background: #33CCFF;
+}
+#footerBar {
+    height: 40px;
+    background: #33CCFF;
+}
+li {
+    color: #32CD32;
+}
+li span { 
+color:#ffffff; }
